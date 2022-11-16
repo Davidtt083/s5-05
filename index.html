@@ -1,115 +1,84 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Carousel</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'><link rel="stylesheet" href="./style.css">
+	<meta charset="UTF-8">
+	<title>CodePen - Scaled/Proportional Content with CSS and JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'><link rel="stylesheet" href="style-2.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-  <title>Carousel 2</title>
-</head>
-<body>
-  <section class="carousel">
-    <div class="carousel__container">
-      <div class="carousel-item">
-        <img class="carousel-item__img" src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="People">
-        <div class="carousel-item__details">          
-          <p class="carousel-item__details--title">Título descriptivo del vídeo en curso</p>
-           <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
-          <div class="carousel-item__details--icons">                  
-               <i class="fa fa-2x fa-play-circle"></i>
-               <i class="fa fa-2x fa-plus-circle"></i>
-            
-            </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="carousel-item__img" src="https://images.pexels.com/photos/1173777/pexels-photo-1173777.jpeg?cs=srgb&dl=aerial-aerial-photography-aerial-shot-1173777.jpg&fm=jpg" alt="People">
-        <div class="carousel-item__details">          
-          <p class="carousel-item__details--title">Título descriptivo del vídeo en curso</p>
-           <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
-          <div class="carousel-item__details--icons">                  
-               <i class="fa fa-2x fa-play-circle"></i>
-               <i class="fa fa-2x fa-plus-circle"></i>
-            
-            </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="carousel-item__img" src="https://images.pexels.com/photos/2489986/pexels-photo-2489986.jpeg?cs=srgb&dl=bangs-beautiful-beauty-2489986.jpg&fm=jpg" alt="People">
-        <div class="carousel-item__details">          
-          <p class="carousel-item__details--title">Título descriptivo del vídeo en curso</p>
-           <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
-          <div class="carousel-item__details--icons">                  
-               <i class="fa fa-2x fa-play-circle"></i>
-               <i class="fa fa-2x fa-plus-circle"></i>
-            
-            </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="carousel-item__img" src="https://images.pexels.com/photos/2365701/pexels-photo-2365701.jpeg?cs=srgb&dl=blur-city-commuter-2365701.jpg&fm=jpg" alt="People">
-        <div class="carousel-item__details">          
-          <p class="carousel-item__details--title">Título descriptivo del vídeo en curso</p>
-           <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
-          <div class="carousel-item__details--icons">                  
-               <i class="fa fa-2x fa-play-circle"></i>
-               <i class="fa fa-2x fa-plus-circle"></i>
-            
-            </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="carousel-item__img" src="https://images.pexels.com/photos/2065805/pexels-photo-2065805.png?cs=srgb&dl=adult-beautiful-denim-jacket-2065805.jpg&fm=jpg" alt="People">
-        <div class="carousel-item__details">          
-          <p class="carousel-item__details--title">Título descriptivo del vídeo en curso</p>
-           <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
-          <div class="carousel-item__details--icons">                  
-               <i class="fa fa-2x fa-play-circle"></i>
-               <i class="fa fa-2x fa-plus-circle"></i>
-            
-            </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="carousel-item__img" src="https://images.pexels.com/photos/1253718/pexels-photo-1253718.jpeg?cs=srgb&dl=botanical-cacti-cactus-1253718.jpg&fm=jpg" alt="People">
-        <div class="carousel-item__details">          
-          <p class="carousel-item__details--title">Título descriptivo del vídeo en curso</p>
-           <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
-          <div class="carousel-item__details--icons">                  
-               <i class="fa fa-2x fa-play-circle"></i>
-               <i class="fa fa-2x fa-plus-circle"></i>
-            
-            </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="carousel-item__img" src="https://images.pexels.com/photos/1797350/pexels-photo-1797350.jpeg?cs=srgb&dl=beauty-close-up-dark-1797350.jpg&fm=jpg" alt="People">
-        <div class="carousel-item__details">          
-          <p class="carousel-item__details--title">Título descriptivo del vídeo en curso</p>
-           <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
-          <div class="carousel-item__details--icons">                  
-               <i class="fa fa-2x fa-play-circle"></i>
-               <i class="fa fa-2x fa-plus-circle"></i>
-            
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<!-- partial:index.partial.html -->
+	<p>'</p>
+	<div>
+		<div class="very-specific-design" id="very-specific-design">
+			<div class="box">
+				<section class="carousel">
+					<div class="carousel__container">
+					  <div class="carousel-item">
+						<img class="carousel-item__img" src="pexels-godisable-jacob-1374910.jpg" alt="People">
+						<div class="carousel-item__details">          
+						  <p class="carousel-item__details--title">Gucci se asoció con Roblox para permitir que se compren sus artículos digitales como moda virtual. Un ejemplo de éxito, es que vendió un bolso virtual Dionysus de Gucci por 4000 dólares.</p>
+						   <p class="carousel-item__details--subtitle"></p>
+						  <div class="carousel-item__details--icons">                  
+							   <i class="fa fa-2x fa-play-circle"></i>
+							   <i class="fa fa-2x fa-plus-circle"></i>
+							
+							</div>
+						</div>
+					  </div>
+					
+					  
+					 
+					  <div class="carousel-item">
+						<img class="carousel-item__img" src="pexels-mnz-1670771.jpg" alt="People">
+						<div class="carousel-item__details">          
+						  <p class="carousel-item__details--title">Vans creó dentro de Roblox un mundo virtual llamado Vans World, un skatepark de Vans basados ​​en espacios reales, donde puedes comprar sus artículos para tu avatar.</p>
+						   <p class="carousel-item__details--subtitle"></p>
+						  <div class="carousel-item__details--icons">                  
+							   <i class="fa fa-2x fa-play-circle"></i>
+							   <i class="fa fa-2x fa-plus-circle"></i>
+							
+							</div>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="carousel-item__img" src="pexels-andrea-piacquadio-840916.jpg" alt="People">
+						<div class="carousel-item__details">          
+						  <p class="carousel-item__details--title">La casa de moda digital, The Fabricant creó para la semana de moda australiana un “abrigo hecho de metal líquido y aumentado con tentáculos que desafían la gravedad”.</p>
+						   <p class="carousel-item__details--subtitle"></p>
+						  <div class="carousel-item__details--icons">                  
+							   <i class="fa fa-2x fa-play-circle"></i>
+							   <i class="fa fa-2x fa-plus-circle"></i>
+							
+							</div>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="carousel-item__img" src="pexels-pixabay-39619.jpg" alt="People">
+						<div class="carousel-item__details">          
+						  <p class="carousel-item__details--title">Nascar se asoció con Roblox para que sus autos aparezcan en  Jailbreak, un submundo virtual creado en Roblox, que es del género de policías y ladrones. En el transcurso del evento de 10 días donde apareció, los usuarios visitaron el mundo virtual 24 millones de veces (30% de incremento de jugadores simultáneos), creando una conexión con sus fanáticos.</p>
+						   <p class="carousel-item__details--subtitle"></p>
+						  <div class="carousel-item__details--icons">                  
+							   <i class="fa fa-2x fa-play-circle"></i>
+							   <i class="fa fa-2x fa-plus-circle"></i>
+							
+							</div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+			</div>
+		</div>
+
+		<!-- partial -->
+		<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+		<script src="./script.js"></script>
+
 </body>
-</html>
-<!-- partial -->
-  
-</body>
+
 </html>
