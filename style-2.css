@@ -5,7 +5,7 @@ body {
 .carousel {
    margin-left: 10%;
    width: 100%;
-   overflow: scroll;
+   overflow: hidden;
    padding: 30px;
    position: relative;
    box-sizing: border-box;
@@ -68,7 +68,7 @@ body {
    opacity: 1;
 }
 .carousel-item__details--title {
-  font-size: 10px;
+  font-size: 14px;
 }
 .carousel-item__details--subtitle {
   
